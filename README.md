@@ -38,10 +38,6 @@ Nu se mai calculează A transpus, se înmulțește B direct cu A, dar A va avea 
 
 
 
-
-
-
-
 Codul neoptimizat pentru a înmulți pe B cu At arată așa:
 ```
 	int i,j;
@@ -133,27 +129,6 @@ Există o mică îmbunătățire față de versiunea cu -O3.
 În urma rulării a mai multe teste pe coada ibm.nehalem, acesta este timpul mediu obținut pentru cele 5 teste:
 
 
+Timpul este exprimat în secunde. În urma rulării a mai multor teste cu N variabil, am făcut un grafic care arată timpul de execuție estimat în funcție de N.
 
-Nume executabil	N
-	400	800	1200
-tema2_blas	0.056	0.404	1.22
-tema2_neopt	1.488	11.45	39.8
-tema2_opt_m	0.482	3.68	12.23
-tema2_opt_f	0.325	2.15	7.8
-tema2_opt_f_extra	0.306	2.02	7.5
-
-Timpul este exprimat în secunde.
-
-
-
-
-
-
-
-În urma rulării a mai multor teste cu N variabil, am făcut un grafic care arată timpul de execuție estimat în funcție de N.
-
-
- 
-
- 
 
