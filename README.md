@@ -146,6 +146,6 @@ Timpul este exprimat în secunde. În urma rulării a mai multor teste cu N vari
 
 
 
-
+Pentru valorile obtinute, s-au realizat graficele de mai jos. 
 <img src="image/2.png" >
-![](image/2.png)
+<img src="image/3.png" >
