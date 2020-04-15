@@ -4,6 +4,7 @@ Corcodel Florina-Denisa, 336 CC
 
 # Implementare BLAS 
 Am împărțit operația C = B * At + A^2 * B în:
+
 C = B * At
 
 A2xB = A^2 * B
@@ -146,4 +147,5 @@ Timpul este exprimat în secunde. În urma rulării a mai multor teste cu N vari
 
 
 
-
+<img src="image/2.png" >
+![](image/2.png)
