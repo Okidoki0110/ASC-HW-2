@@ -134,3 +134,8 @@ Există o mică îmbunătățire față de versiunea cu -O3.
 Timpul este exprimat în secunde. În urma rulării a mai multor teste cu N variabil, am făcut un grafic care arată timpul de execuție estimat în funcție de N.
 
 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
