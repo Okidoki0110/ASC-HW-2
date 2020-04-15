@@ -143,3 +143,7 @@ Timpul este exprimat în secunde. În urma rulării a mai multor teste cu N vari
 |Opt_f	    | 0,319363	| 0,490223  | 2,105577	| 4,402803  |	7,699825  |
 |Opt_f_extra| 0,279646	| 0,430199  | 1,925067	| 3,838698  |	7,198675  |
 
+
+
+
+
