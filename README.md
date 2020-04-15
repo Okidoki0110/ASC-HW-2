@@ -1,13 +1,8 @@
 # ASC-HW-2
-README
 
-Corcodel Florina-Denisa
-336 CC
+Corcodel Florina-Denisa, 336 CC
 
-
-
-
-Implementare BLAS
+# Implementare BLAS 
 Am împărțit operația C = B * At + A^2 * B în:
 C = B * At
 A2xB = A^2 * B
@@ -24,7 +19,7 @@ cu două loop-uri for și complexitate O(N^2).
 
 
 
-Implementare neoptimizată
+# Implementare neoptimizată
 Această implementare folosește algoritmi simpli, iar codul este neoptimizat.
 
 Pentru a genera A transpus se folosește un algoritm cu complexitate O(N^2).
@@ -35,7 +30,7 @@ Această versiune este de departe cea mai lentă.
 
 
 
-Implementare optimizată manual
+# Implementare optimizată manual
 Algoritmii sunt asemănători cu cei de la varianta neoptimizată, dar apar unele diferențe care schimbă timpii de execuție.
 
 Nu se mai calculează A transpus, se înmulțește B direct cu A, dar A va avea indicii de linie și coloană inversați.
@@ -48,6 +43,7 @@ Nu se mai calculează A transpus, se înmulțește B direct cu A, dar A va avea 
 
 
 Codul neoptimizat pentru a înmulți pe B cu At arată așa:
+```
 	int i,j;
 	for(i=0; i<N; i++)
 	{
@@ -58,8 +54,9 @@ Codul neoptimizat pentru a înmulți pe B cu At arată așa:
 				C[(i*N)+j] += B[(i*N)+k] * At[(k*N)+j];
 		}
 	}
-
+```
 Codul optimizat arată așa:
+```
 	register double* B_p = B;
 	register double* C_p = C;
  
@@ -94,7 +91,7 @@ Codul optimizat arată așa:
 		B_p += N;
 		C_p += N;
 	}
-
+```
 Cum am menționat mai sus, înmuțirea în cazul optimizat se face direct între B și A, fără a avea un A transpus calculat intermediar.
 
 Se folosesc pointeri pentru a accesa liniile și coloanele mai optim.
