@@ -5,7 +5,9 @@ Corcodel Florina-Denisa, 336 CC
 # Implementare BLAS 
 Am împărțit operația C = B * At + A^2 * B în:
 C = B * At
+
 A2xB = A^2 * B
+
 C = C + A2xB
 
 Pentru a înmulți o matrice am folosit funcția cblas_dgemm.
